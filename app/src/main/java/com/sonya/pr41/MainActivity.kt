@@ -68,7 +68,7 @@ fun SecondScreen(navController: NavController) {
         .statusBarsPadding(),horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center) {
         Text("Это второй экран")
         Button(onClick = {navController.popBackStack()}) {
-            Text("Назад")
+            Text("Назад ")
         }
     }
 }
